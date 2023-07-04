@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
   accesslog(req, res);
-  res.end('<h1><center>Hello World! this is a simple nodejs app running in a Docker container Version 4</h1></center>');
+  res.end('<h1><center>Hello World! this is a simple nodejs app running in a Docker container Version 5</h1></center>');
 });
  
 server.listen(port, hostname, () => {
