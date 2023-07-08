@@ -28,7 +28,7 @@ Time to paste the below node js code to our **app.js** file
 
 ```java
 const http = require('http');
-var accesslog = require('access-log');
+const accesslog = require('access-log');
 const hostname = '0.0.0.0';
 const port = 3000;
  
